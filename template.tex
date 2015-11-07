@@ -1,0 +1,66 @@
+% vim: set tw=0 sw=4 sts=4 et:
+
+\documentclass{beamer}
+
+\definecolor{ttupurple}{RGB}{90,64,153}
+\definecolor{ttuyellow}{RGB}{255,221,0}
+
+\usecolortheme[named=ttupurple]{structure}
+\usetheme{Berlin}
+\beamertemplatenavigationsymbolsempty
+
+
+\title{\textcolor{ttuyellow}{Template Presentation}}
+\subtitle{Template Subtitle}
+\author{C. Brett Witherspoon}
+\date{\today}
+\institute[\textcolor{ttuyellow}{Tennessee Technological University}]{\includegraphics[height=0.65cm]{wordmark.png}}
+
+\logo{\includegraphics[height=0.5cm]{logo.png}}
+
+\begin{document}
+
+% Title page
+{
+\setbeamertemplate{logo}{}
+\begin{frame}
+  \titlepage
+\end{frame}
+}
+
+% Table of contents
+\begin{frame}{\textcolor{ttuyellow}{Outline}}
+    \tableofcontents
+\end{frame}
+
+% Content
+\section{Introduction}
+
+\begin{frame}
+    \frametitle{\textcolor{ttuyellow}{Frame Title}}
+    \framesubtitle{Frame Subtitle}
+
+\end{frame}
+
+\section{Content}
+
+\begin{frame}
+    \frametitle{\textcolor{ttuyellow}{Frame Title}}
+    \framesubtitle{Frame Subtitle}
+
+\end{frame}
+
+\begin{frame}
+    \frametitle{\textcolor{ttuyellow}{Frame Title}}
+    \framesubtitle{Frame Subtitle}
+
+\end{frame}
+
+\section{Conclusion}
+
+\begin{frame}
+    \frametitle{\textcolor{ttuyellow}{Conclusion}}
+
+\end{frame}
+
+\end{document}
