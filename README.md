@@ -1,1 +1,1 @@
-A beamer template for LaTex TTU presentations.
+Templates for TTU presentations.
